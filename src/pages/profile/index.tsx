@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+import Profile from "../../components/Profile";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const ProfilePage = () => {
   return (
-    <h1>
-      Profile Page
-    </h1>
+    <>
+      <Header />
+      <Profile />
+      <Footer />
+    </>
   );
 };
 

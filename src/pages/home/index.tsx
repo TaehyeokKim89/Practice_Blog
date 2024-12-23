@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <div className="post__navigation">
         <div className="post__navigation--active">전체</div>
         <div>나의 글</div>
@@ -65,11 +66,7 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <footer>
-        <Link to="/posts/new">글쓰기</Link>
-        <Link to="/posts">게시글</Link>
-        <Link to="/profile">프로필</Link>
-      </footer>
+      <Footer />
     </div>
   );
 };
