@@ -1,8 +1,12 @@
-import React from 'react';
+import Header from "components/Header";
+import PostForm from "components/PostForm";
 
 const PostEdit = () => {
   return (
-    <h1>Post Edit Page</h1>
+    <>
+      <Header/>
+      <PostForm/>
+    </>
   );
 };
 

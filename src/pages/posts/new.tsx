@@ -1,10 +1,12 @@
-import React from 'react';
+import Header from 'components/Header';
+import PostForm from 'components/PostForm';
 
 const PostNew = () => {
   return (
-    <h1>
-      Post New Page
-    </h1>
+    <>
+      <Header/>
+      <PostForm/>
+    </>
   );
 };
 
