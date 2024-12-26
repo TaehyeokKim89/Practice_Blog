@@ -440,6 +440,7 @@ input:checked + .carousel__slide-container .nav label {
   color: black;
 }
 
-/* signup form */
-
+.form__error {
+  color: red;
+};
 
